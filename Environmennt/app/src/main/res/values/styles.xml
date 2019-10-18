@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorPrimary">@color/colorPink</item>
+        <item name="android:colorAccent">@color/colorPink</item>
+        <item name="android:colorPrimaryDark">@color/colorPink</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorPrimary">@color/colorPink</item>
+        <item name="android:colorAccent">@color/colorPink</item>
+        <item name="android:colorPrimaryDark">@color/colorPink</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="android:colorPrimary">@color/colorPink</item>
+        <item name="android:colorAccent">@color/colorPink</item>
+        <item name="android:colorPrimaryDark">@color/colorPink</item>/>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorPrimary">@color/colorPink</item>
+        <item name="android:colorAccent">@color/colorPink</item>
+        <item name="android:colorPrimaryDark">@color/colorPink</item>/>
+    </style>
+
+    <style name="SplashTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:colorPrimary">@color/colorPink</item>
+    <item name="android:colorAccent">@color/colorPink</item>
+    <item name="android:colorPrimaryDark">@color/colorPink</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="SplashTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:colorPrimary">@color/colorPink</item>
+        <item name="android:colorAccent">@color/colorPink</item>
+        <item name="android:colorPrimaryDark">@color/colorPink</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="NavigationView" >
+
+        <item name="android:listDivider">@color/colorPink</item>
+        <item name="android:textColorSecondary">@color/colorPink</item>
+    </style>
+</resources>

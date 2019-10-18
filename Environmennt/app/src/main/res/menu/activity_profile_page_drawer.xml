@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/groupProfile"
+        >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"
+
+            />
+
+    </group>
+    <group  android:id="@+id/groupActivityLog">
+        <item
+            android:id="@+id/nav_activitylog"
+            android:icon="@drawable/activitylog"
+            android:title="Activity Log" />
+
+    </group>
+    <group  android:id="@+id/groupEnvironmentalBoard">
+        <item
+            android:id="@+id/nav_environmentFootPrint"
+            android:icon="@drawable/environmentalfootprint"
+            android:title="Environmental FootPrint" />
+    </group>
+    <group  android:id="@+id/groupLeaderBoard">
+        <item
+            android:id="@+id/nav_leaderBoard"
+            android:icon="@drawable/leaderboard"
+            android:title="Leader Board" />
+    </group>
+    <group  android:id="@+id/group">
+        <item
+            android:id="@+id/nav_growPlant"
+            android:icon="@drawable/growplant"
+            android:title="Grow Plant" />
+    </group>
+    <group  android:id="@+id/groupTakeQuiz">
+        <item
+            android:id="@+id/nav_takeQuiz"
+            android:icon="@drawable/profile"
+            android:title="Take Quiz" />
+    </group>
+    <group  android:id="@+id/groupFindFriends">
+        <item
+            android:id="@+id/nav_findFriends"
+            android:icon="@drawable/findfriends"
+            android:title="Find Friends" />
+    </group>
+    <group  android:id="@+id/groupSignOut">
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/signout"
+            android:title="Sign out" />
+    </group>
+
+
+
+</menu>

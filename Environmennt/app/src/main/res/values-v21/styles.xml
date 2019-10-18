@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="SplashTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="NavigationView" >
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:listDivider">@color/colorPink</item>
+        <item name="android:textColorSecondary">@color/colorPink</item>
+    </style>
+</resources>

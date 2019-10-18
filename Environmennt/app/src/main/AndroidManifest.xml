@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.environmentalchanges">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+        <!--<activity android:name=".Activities.ActivityLogGraph"></activity>-->
+        <activity android:name=".Activities.Habits" />
+        <activity android:name=".Activities.Sustainability" />
+        <activity android:name=".Activities.FuelUsage" />
+        <activity android:name=".Activities.ElectricityUsage" />
+        <activity android:name=".Activities.PlasticUsage" />
+        <activity
+            android:name=".Activities.WaterUsage"
+            android:label="Water Usage" />
+        <activity
+            android:name=".Activities.ActivityLog"
+            android:label="Activity Log"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".Activities.ProfilePage"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".Activities.EnvirontmentFootprint"
+            android:label="Environmental FootPrint"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".Activities.LoginPage"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
